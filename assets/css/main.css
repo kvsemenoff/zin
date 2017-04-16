@@ -1,7 +1,6 @@
 @import "http://webfonts.ru/import/clearsans.css";
-
 body {
-	font-family: 'Clear Sans';	
+	font-family: 'Clear Sans';
 	min-width: 1024px;
 }
 #vk_groups {
@@ -14,30 +13,30 @@ body {
 		position: relative;
 		width: 920px;
 	}
-	
+
 	.content2 {
 		margin: 0 auto;
 		padding: 0 0 0 70px;
 		position: relative;
 		width: 1000px;
 	}
-	
+
 	.clear {
 		clear: both;
 	}
-	
+
 	.general_form .title_form {
 		color: #000000;
 		text-align:center;
 		font-size: 29px;
 		font-weight: 400;
 	}
-	
+
 	.general_form .text_form {
 		font-size: 20px;
 		font-weight: 200;
 	}
-	
+
 	.button_1 {
 		background-color: #ffe220;
 		border: none;
@@ -53,7 +52,7 @@ body {
 		text-transform: uppercase;
 		width: 250px;
 	}
-	
+
 	.button_2 {
 		background-color: #f8b930;
 		border: none;
@@ -72,13 +71,146 @@ body {
 		text-transform: uppercase;
 		width: 130px;
 	}
-	
+
 	.large {
 		font-size: 56px;
 		font-weight: 100;
 		text-transform: uppercase;
 	}
+
+/* --- */
+
+#header {
+	background: url(../images/pictures/bg_01.jpg) no-repeat scroll center 0 transparent;
+	height: 1024px;
+	padding: 20px 0 0;
+}
+
+@media (min-width: 1796px) {
+	#header {
+	  background-size:cover;
+	  height:1100px;
+	}
+}
+#header .descriptor .logo {
+	background: url("../images/Z300-2.png") no-repeat scroll 0 0 transparent;
+	float: left;
+	height: 120px;
+	margin: 0 360px 0 0;
+	width: 250px;
+}
+
+#header .descriptor .phone_box {
+	padding: 15px 0 0;
+}
+
+#header .descriptor .phone_box .phone {
+	font-size: 30px;
+}
+
+#header .descriptor .phone_box .phone span {
+	color: #C5A70A;
+	font-weight: 100;
+}
+
+#header .descriptor .phone_box .small {
+	font-size: 16px;
+	margin: -8px 0 3px;
+}
+
+#header .descriptor .phone_box a {
+	color: #C5A70A;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+#header .descriptor .phone_box a:hover {
+	text-decoration: none;
+}
+
+#header .title {
+	font-size: 56px;
+	font-weight: 100;
+	margin: 42px 0 33px;
+	text-transform: uppercase;
+}
+
+#header .video .bg_video {
+	background: url(../images/icons/01.png) no-repeat scroll 0 0 transparent;
+	height: 373px;
+	width: 936px;
+}
+
+#header .general_form {
+	opacity: 0.7;
+	border-top: 1px solid rgba(249, 223, 166, 0.3);
+	border-bottom: 1px solid rgba(249, 223, 166, 0.3);
+	padding: 10px 0 5px;
+	position: absolute;
+	right: 55px;
+	top: 418px;
+	width: 250px;
+}
+
+#header .general_form .text_form {
+	color: #5E0707;
+	font-weight: 300;
+	text-align:center;
+}
+
+#header .balls1 {
+	margin: 4px 0 0;
+}
+
+#header .balls1 p {
+	background: url(../images/icons/02.png) no-repeat scroll 0 19px transparent;
+	color: #553A00;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 0;
+	padding: 0 0 0 33px;
+}
+
+#header .balls1 p .title {
+	color: #49402B;
+	display: block;
+	font-size: 30px;
+	font-weight: 100;
+	margin: 0 0 -6px;
+}
+
+#header .balls1 p .title .number {
+	font-size: 60px;
+	font-weight: 500;
+}
+
+#balls1 .large {
+	margin: 25px 0 42px;
+}
+
+#balls1 .box {
+	min-height: 460px;
+	width: 290px;
+}
+
+#balls1 .box .img img {
+	border-radius: 200px;
+}
+
+#balls1 .box .title {
+	font-size: 26px;
+	font-weight: 600;
+	margin: 18px 0 10px;
+}
+
+#balls1 .box .text {
+	color: #414141;
+	font-size: 16px;
+	font-weight: 100;
+}
+
 /* --- * Header start*/
+
 
 /* -- * Header finish*/
 #form_1 {
@@ -308,7 +440,7 @@ margin: 2px;
 	margin:0 auto;
 }
 #video_2 .carousel-caption {
-	
+
 }
 #video_2 .item {
 	height: 355px;
@@ -371,80 +503,6 @@ margin: 2px;
 	left: 726px;
 	text-align: right;
 	top: 380px;
-}
-
-#form_2 {
-	background: url(../images/pictures/bg_04.jpg) no-repeat scroll center 0 transparent;
-	height: 500px;
-	margin: 120px 0 0;
-	padding: 30px 0 0;
-}
-
-#form_2 .title {
-	color: #e13837;
-	display: inline-block;
-	font-size: 56px;
-	font-weight: 100;
-	padding: 0 35px;
-	margin: 0 0 0 -33px;
-	position: relative;
-}
-
-#form_2 .title .quotes_top {
-	font-size: 100px;
-	left: 0;
-	position: absolute;
-	top: -10px;
-}
-
-#form_2 .title .quotes_bottom {
-	font-size: 100px;
-	right: 160px;
-	position: absolute;
-	bottom: -50px;
-}
-
-#form_2 .text {
-	color: #000000;
-	font-size: 26px;
-	font-style: italic;
-	font-weight: 100;
-	margin: -20px 0 0 250px;
-}
-
-#form_2 .general_form {
-	width: 285px;
-}
-
-#form_2 .general_form .title_form {
-	color: #000000;
-	font-size: 30px;
-	margin: 37px 0 3px;
-}
-
-#form_2 .general_form input {
-	margin: 5px 0;
-}
-
-#form_2 .general_form .form-control {
-	background-color: #ffffff;
-	border: 1px solid #e13837;
-}
-
-#form_2 .form-control:-moz-placeholder {
-  color: #838383;
-}
-
-#form_2 .form-control::-moz-placeholder {
-  color: #838383;
-}
-
-#form_2 .form-control:-ms-input-placeholder {
-  color: #838383;
-}
-
-#form_2 .form-control::-webkit-input-placeholder {
-  color: #838383;
 }
 
 #reviews {
@@ -605,10 +663,10 @@ margin: 2px;
 }
 
 #footer .phone_box a:hover {
-	text-decoration: none;	
+	text-decoration: none;
 }
 #footer .phone_box a.politika {
-	font-size: 12px; 
+	font-size: 12px;
 	float:right;
 	padding-right: 80px;
 	padding-top: 20px;
