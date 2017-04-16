@@ -77,6 +77,7 @@ body {
 		font-weight: 100;
 		text-transform: uppercase;
 	}
+
 /* --- */
 
 #header {
@@ -208,6 +209,10 @@ body {
 	font-weight: 100;
 }
 
+/* --- * Header start*/
+
+
+/* -- * Header finish*/
 #form_1 {
 	background: url(../images/pictures/bg_02.jpg) no-repeat scroll center bottom transparent;
 	background-size:cover;
