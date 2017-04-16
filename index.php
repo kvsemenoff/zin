@@ -27,7 +27,7 @@
 <head>
 	<title> Свадебное видео получи ролик для Instagramm на следующий день после свадьбы!</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link type="text/css" rel="stylesheet" href="assets/css/main.css" />
 	<link type="text/css" rel="stylesheet" href="assets/css/style-dg.css" />
 	<link type="text/css" rel="stylesheet" href="assets/css/jquery.countdown.css" />

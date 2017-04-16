@@ -1,5 +1,5 @@
 <div id="form_2">
-  <div class="container">
+  <div class="container2">
     <h1 class="title"><span class="quotes_top">&#8220;</span>ВАУ! Как же ей<br />повезло<span class="quotes_bottom">&#8221;</span></h1>
     <p class="text">Ваши подруги</p>
     <div class="general_form">

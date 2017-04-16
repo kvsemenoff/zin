@@ -1,3 +1,18 @@
+.container2 {
+	@media screen and (min-width: 768px) {
+		max-width: 750px;
+	}
+	@media screen and (min-width: 992px) {
+			max-width: 970px;
+	}
+	@media screen and (min-width: 1200px) {
+	    max-width: 1170px;
+	}
+	padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 #form_2 {
 	background: url(../images/pictures/bg_04.jpg) no-repeat scroll center 0 transparent;
 	height: 500px;
