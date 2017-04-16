@@ -26,9 +26,14 @@
 #form_2 {
   background: url(../images/pictures/bg_04.jpg) no-repeat scroll center 0 transparent;
   background-size: cover;
-  height: 500px;
   margin: 120px 0 0;
-  padding: 30px 0 0;
+  padding: 30px 0 30px 0;
+}
+
+@media (min-width: 992px) {
+  #form_2 {
+    height: 500px;
+  }
 }
 
 #form_2 .title {
@@ -36,7 +41,7 @@
   display: inline-block;
   font-size: 56px;
   font-weight: 100;
-  padding: 0 35px;
+  padding: 0 35px 0 45px;
   margin: 0 0 0 -33px;
   position: relative;
 }
@@ -48,11 +53,13 @@
   top: -10px;
 }
 
+.form_2-wrapp {
+  position: relative;
+}
+
 #form_2 .title .quotes_bottom {
   font-size: 100px;
-  right: 160px;
   position: absolute;
-  bottom: -50px;
 }
 
 #form_2 .text {
@@ -60,11 +67,23 @@
   font-size: 26px;
   font-style: italic;
   font-weight: 100;
-  margin: -20px 0 0 250px;
+}
+
+@media (min-width: 992px) {
+  #form_2 .text {
+    margin: -20px 0 0 250px;
+  }
 }
 
 #form_2 .general_form {
   width: 285px;
+  margin: auto;
+}
+
+@media (min-width: 992px) {
+  #form_2 .general_form {
+    margin: 0;
+  }
 }
 
 #form_2 .general_form .title_form {
@@ -96,4 +115,29 @@
 
 #form_2 .form-control::-webkit-input-placeholder {
   color: #838383;
+}
+
+#question {
+  background: url(../images/pictures/bg_07.jpg) no-repeat scroll center 0 transparent;
+  height: 355px;
+  padding: 5px 0 0;
+}
+
+#question .content {
+  padding: 0 0 0 60px;
+}
+
+#question .general_form {
+  margin: 0 auto;
+  width: 250px;
+}
+
+#question .general_form .text_form {
+  color: #414141;
+  margin: 8px 0 16px;
+}
+
+#question .general_form .form-control {
+  background-color: #dddddd;
+  border: 1px solid #c1b8b4;
 }
