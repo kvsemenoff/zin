@@ -25,6 +25,7 @@
 
 #form_2 {
   background: url(../images/pictures/bg_04.jpg) no-repeat scroll center 0 transparent;
+  background-size: cover;
   height: 500px;
   margin: 120px 0 0;
   padding: 30px 0 0;
