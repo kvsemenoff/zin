@@ -34,6 +34,7 @@
 	
 	<!-- Bootstrap CSS -->
 	<link type="text/css" rel="stylesheet" href="assets/css/bootstrap.css" />
+		<link rel="stylesheet" href="assets/css/bootstrap-grid-3.3.1.min.css" />
 
 	<!-- jQuery JS -->
 	<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>

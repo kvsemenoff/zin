@@ -29,11 +29,14 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	
 	<link type="text/css" rel="stylesheet" href="assets/css/main.css" />
+	<link type="text/css" rel="stylesheet" href="assets/css/style-da.css" />
+
 	<link type="text/css" rel="stylesheet" href="assets/css/jquery.countdown.css" />
 	<link type="text/css" rel="stylesheet" href="assets/css/lightbox.css" />
 	
 	<!-- Bootstrap CSS -->
 	<link type="text/css" rel="stylesheet" href="assets/css/bootstrap.css" />
+	<link rel="stylesheet" href="assets/css/bootstrap-grid-3.3.1.min.css" />
 
 	<!-- jQuery JS -->
 	<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
@@ -64,13 +67,10 @@
 	<div id="header">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<div class="descriptor2">
-						<div class="logo"></div>
-						
-					</div>
+				<div class="col-md-2">
+					<div class="logo"></div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-10">
 					<div class="phone_box">
 						<p class="phone"><a href="tel:+7 926 453-95-79"> <span>&#160&#160 <b>8 (926) 453-95-79</b></a></span></p>
 						<p class="text"><b>&#160&#160Zinoveev@yandex.ru</b></p>

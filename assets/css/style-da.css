@@ -10,39 +10,41 @@
 	  height:1100px;
 	}
 }
-#header .descriptor .logo {
+#header  .logo {
 	background: url("../images/Z300-2.png") no-repeat scroll 0 0 transparent;
-	float: left;
+	//float: left;
 	height: 120px;
-	margin: 0 360px 0 0;
+	//margin: 0 360px 0 0;
 	width: 250px;
 }
 
-#header .descriptor .phone_box {
+#header  .phone_box {
 	padding: 15px 0 0;
+	max-width: 320px;
+	 margin-left: auto;
 }
 
-#header .descriptor .phone_box .phone {
+#header  .phone_box .phone {
 	font-size: 30px;
 }
 
-#header .descriptor .phone_box .phone span {
+#header  .phone_box .phone span {
 	color: #C5A70A;
 	font-weight: 100;
 }
 
-#header .descriptor .phone_box .small {
+#header  .phone_box .small {
 	font-size: 16px;
 	margin: -8px 0 3px;
 }
 
-#header .descriptor .phone_box a {
+#header  .phone_box a {
 	color: #C5A70A;
 	font-size: 20px;
 	text-decoration: underline;
 }
 
-#header .descriptor .phone_box a:hover {
+#header  .phone_box a:hover {
 	text-decoration: none;	
 }
 
