@@ -1,7 +1,6 @@
 @import "http://webfonts.ru/import/clearsans.css";
-
 body {
-	font-family: 'Clear Sans';	
+	font-family: 'Clear Sans';
 	min-width: 1024px;
 }
 #vk_groups {
@@ -14,30 +13,30 @@ body {
 		position: relative;
 		width: 920px;
 	}
-	
+
 	.content2 {
 		margin: 0 auto;
 		padding: 0 0 0 70px;
 		position: relative;
 		width: 1000px;
 	}
-	
+
 	.clear {
 		clear: both;
 	}
-	
+
 	.general_form .title_form {
 		color: #000000;
 		text-align:center;
 		font-size: 29px;
 		font-weight: 400;
 	}
-	
+
 	.general_form .text_form {
 		font-size: 20px;
 		font-weight: 200;
 	}
-	
+
 	.button_1 {
 		background-color: #ffe220;
 		border: none;
@@ -53,7 +52,7 @@ body {
 		text-transform: uppercase;
 		width: 250px;
 	}
-	
+
 	.button_2 {
 		background-color: #f8b930;
 		border: none;
@@ -72,7 +71,7 @@ body {
 		text-transform: uppercase;
 		width: 130px;
 	}
-	
+
 	.large {
 		font-size: 56px;
 		font-weight: 100;
@@ -125,7 +124,7 @@ body {
 }
 
 #header .descriptor .phone_box a:hover {
-	text-decoration: none;	
+	text-decoration: none;
 }
 
 #header .title {
@@ -436,7 +435,7 @@ margin: 2px;
 	margin:0 auto;
 }
 #video_2 .carousel-caption {
-	
+
 }
 #video_2 .item {
 	height: 355px;
@@ -733,10 +732,10 @@ margin: 2px;
 }
 
 #footer .phone_box a:hover {
-	text-decoration: none;	
+	text-decoration: none;
 }
 #footer .phone_box a.politika {
-	font-size: 12px; 
+	font-size: 12px;
 	float:right;
 	padding-right: 80px;
 	padding-top: 20px;
