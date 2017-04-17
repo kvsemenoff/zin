@@ -2,7 +2,7 @@
 body {
 
 	font-family: 'Open Sans', sans-serif;
-	
+
 }
 #vk_groups {
 	float:left;
@@ -476,7 +476,136 @@ body {
 	text-align: justify;
 	width: 360px;
 }
+/* Form_2 and Question Blocks */
+.container2 {
+	padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
+
+#form_2 {
+	background: url(../images/pictures/bg_04.jpg) no-repeat scroll center 0 transparent;
+	background-size: cover;
+	margin: 120px 0 0;
+	padding: 30px 0 30px 0;
+}
+
+#form_2 .title {
+	color: #e13837;
+	display: inline-block;
+	font-size: 56px;
+	font-weight: 100;
+	padding: 0 35px 0 45px;
+	margin: 0 0 0 -33px;
+	position: relative;
+}
+
+#form_2 .title .quotes_top {
+	font-size: 100px;
+	left: 0;
+	position: absolute;
+	top: -10px;
+}
+.form_2-wrapp {
+	position: relative;
+}
+
+#form_2 .title .quotes_bottom {
+	font-size: 100px;
+	position: absolute;
+}
+
+#form_2 .text {
+	color: #000000;
+	font-size: 26px;
+	font-style: italic;
+	font-weight: 100;
+}
+
+#form_2 .general_form {
+	width: 285px;
+	margin: auto;
+}
+
+#form_2 .general_form .title_form {
+	color: #000000;
+	font-size: 30px;
+	margin: 37px 0 3px;
+}
+
+#form_2 .general_form input {
+	margin: 5px 0;
+}
+
+#form_2 .general_form .form-control {
+	background-color: #ffffff;
+	border: 1px solid #e13837;
+}
+
+#form_2 .form-control:-moz-placeholder {
+  color: #838383;
+}
+
+#form_2 .form-control::-moz-placeholder {
+  color: #838383;
+}
+
+#form_2 .form-control:-ms-input-placeholder {
+  color: #838383;
+}
+
+#form_2 .form-control::-webkit-input-placeholder {
+  color: #838383;
+}
+
+#question {
+	background: url(../images/pictures/bg_07.jpg) no-repeat scroll center 0 transparent;
+	height: 355px;
+	padding: 5px 0 0;
+}
+
+#question .content {
+	padding: 0 0 0 60px;
+}
+
+#question .general_form {
+	margin: 0 auto;
+	width: 250px;
+}
+
+#question .general_form .text_form {
+	color: #414141;
+	margin: 8px 0 16px;
+}
+
+#question .general_form .form-control {
+	background-color: #dddddd;
+	border: 1px solid #c1b8b4;
+}
+
+@media screen and (min-width: 768px) {
+	.container2 {
+		max-width: 750px;
+	}
+}
+@media screen and (min-width: 992px) {
+		.container2 {
+			max-width: 970px;
+		}
+		#form_2 {
+			height: 500px;
+		}
+		#form_2 .text {
+			margin: -20px 0 0 250px;
+		}
+		#form_2 .general_form {
+			margin: 0;
+		}
+}
+
+/* END */
 #footer {
 	padding: 10px 0 40px;
 }
