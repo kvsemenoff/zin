@@ -1,6 +1,8 @@
 @import "http://webfonts.ru/import/clearsans.css";
 body {
-	font-family: 'Clear Sans' !important;
+
+	font-family: 'Open Sans', sans-serif;
+	
 }
 #vk_groups {
 	float:left;
