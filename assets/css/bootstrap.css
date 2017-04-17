@@ -708,8 +708,8 @@ pre code {
 }
 
 .container {
-	min-width:1024px;
-  max-width: 1024px;
+	/*min-width:1024px;
+  max-width: 1024px;*/
   margin-right: auto;
   margin-left: auto;
 }

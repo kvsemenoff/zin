@@ -1,7 +1,11 @@
 @import "http://webfonts.ru/import/clearsans.css";
 body {
+<<<<<<< HEAD
 	font-family: 'Open Sans', sans-serif;
 	
+=======
+	font-family: 'Clear Sans' !important;
+>>>>>>> 0b3f14b202bac2acf0194c44663bd75cac6f3978
 }
 #vk_groups {
 	float:left;
@@ -467,31 +471,6 @@ margin: 2px;
 	padding: 0 30px 0;
 	text-align: justify;
 	width: 360px;
-}
-
-#question {
-	background: url(../images/pictures/bg_07.jpg) no-repeat scroll center 0 transparent;
-	height: 355px;
-	padding: 5px 0 0;
-}
-
-#question .content {
-	padding: 0 0 0 60px;
-}
-
-#question .general_form {
-	margin: 0 auto;
-	width: 250px;
-}
-
-#question .general_form .text_form {
-	color: #414141;
-	margin: 8px 0 16px;
-}
-
-#question .general_form .form-control {
-	background-color: #dddddd;
-	border: 1px solid #c1b8b4;
 }
 
 #footer {
