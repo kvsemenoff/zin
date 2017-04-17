@@ -10,8 +10,13 @@
 	border-radius: 10px;
 	height: 90px;
 	width: 245px;
+	margin: 0 auto;
 }
-
+@media only screen and (min-width : 992px) {
+	.hasCountdown {
+		margin-left: 0;
+	}
+}
 .countdown_row {
 	display: block;
 	height: 70px;

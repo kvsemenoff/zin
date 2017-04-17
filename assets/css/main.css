@@ -63,7 +63,8 @@ body {
 	text-align: center;
 	text-transform: uppercase;
 	width: 250px;
-	margin: 10px 0 10px 0px;
+	/*margin: 10px 0 10px 0px;*/
+	margin: 10px auto;
 }
 @media only screen and (min-width : 992px) {
 	.button_1 {
@@ -92,11 +93,16 @@ body {
 }
 
 .large {
-	font-size: 56px;
+	/*font-size: 56px;*/
+	font-size: 44px;
 	font-weight: 100;
 	text-transform: uppercase;
 }
-
+@media only screen and (min-width : 480px) {
+	.large {
+		font-size: 56px;
+	}
+}
 /* --- */
 
 
@@ -116,10 +122,13 @@ body {
 #form_1 .form {
 	/*margin: 0 0 0 240px;*/
 	max-width: 520px;
+	margin: 0 auto;
+	text-align: center;
 }
 @media only screen and (min-width : 992px) {
 	#form_1 .form {
-		margin: 0 0 0 240px;
+		text-align: left;
+		margin: 0 0 0 260px;
 	}
 }
 #form_1 .subtitle {
@@ -138,15 +147,22 @@ body {
 #prices .icon_wedding {
 	background: url(../images/icons/05.png) no-repeat scroll 0 0 transparent;
 	height: 110px;
-	left: 500px;
+	left: 524px;
 	position: absolute;
 	top: 471px;
 	width: 89px;
 }
 
 #prices .box {
-	width: 270px;
+	width: 266px;
+	margin: 0 auto;
 }
+@media only screen and (min-width : 320px) {
+	#prices .box {
+		width: 270px;
+	}
+}
+
 
 #prices .box .title {
 	color: #ff9914;
@@ -164,6 +180,18 @@ body {
 #prices .table_prices {
 	background: url(../images/icons/04.png) no-repeat scroll 220px 80px transparent;
 	margin: 37px 0 0;
+	display: none;
+}
+.icon_wedding{
+	display: none;
+}
+@media only screen and (min-width : 992px) {
+	#prices .table_prices {
+		display: block;
+	}
+	.icon_wedding{
+		display: block;
+	}
 }
 
 #prices .table_prices .col-5 {
@@ -290,9 +318,10 @@ body {
 
 #video_2 {
 	background: url(../images/pictures/bg_03.jpg) no-repeat scroll center 0 transparent;
-	height: 541px;
+	background-size:cover;
+	/*height: 541px;*/
 	margin: 60px 0 0;
-	padding: 30px 0 0;
+	padding: 30px 0 40px;
 }
 
 #video_2 .title {
@@ -320,19 +349,19 @@ body {
 
 #video_2 .video_boxesss {
 	height: 272px;
-	width: 452px;
+	max-width: 452px;
 	border: 15px solid rgba(0,0,0,.0);
 	box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
 	border-radius: 10px;
 	margin: 2px;
 }
 #video_2 .carousel {
-	width:1000px;
+	max-width:1000px;
 	margin:0 auto;
 	height:380px;
 }
 #video_2 .carousel-inner {
-	width:455px;
+	max-width:455px;
 	margin:0 auto;
 }
 #video_2 .carousel-caption {
@@ -340,7 +369,7 @@ body {
 }
 #video_2 .item {
 	height: 355px;
-	width: 452px;
+	max-width: 452px;
 }
 #video_2 .carousel-control {
 	background:url(../images/left.png) center center no-repeat;

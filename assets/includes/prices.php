@@ -2,7 +2,7 @@
   <div class="content2">
     <h1 class="large">К Вашим услугам...</h1>
     <div class="row">
-      <div class="col-4">
+      <div class="col-md-4">
         <div class="box">
           <div class="img">
             <img src="assets/images/pictures/pr_01.jpg" alt="image icon" />
@@ -11,7 +11,7 @@
           <p class="text">Видеосъемка с 2-х и более камер<br />позволяет создавать очень<br />красивый и динамичный<br />свадебный фильм и клип.</p>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-md-4">
         <div class="box">
           <div class="img">
             <img src="assets/images/pictures/pr_02.jpg" alt="image icon" />
@@ -20,7 +20,7 @@
           <p class="text">Аэросъемка с воздуха придаст<br />вашему свадебному фильму<br />ощущение масштабности и<br />грандиозности.</p>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-md-4">
         <div class="box">
           <div class="img">
             <img src="assets/images/pictures/pr_03.jpg" alt="image icon" />
