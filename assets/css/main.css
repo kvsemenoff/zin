@@ -69,7 +69,6 @@ body {
 @media only screen and (min-width : 992px) {
 	.button_1 {
 		display: inline-block;
-		margin-left: 15px;
 	}
 }
 
@@ -486,16 +485,17 @@ body {
 
 
 #form_2 {
-	background: url(../images/pictures/bg_04.jpg) no-repeat scroll center 0 transparent;
+	background-image: url(../images/pictures/bg_04.jpg);
 	background-size: cover;
 	margin: 120px 0 0;
 	padding: 30px 0 30px 0;
+	position: relative;
 }
 
 #form_2 .title {
 	color: #e13837;
 	display: inline-block;
-	font-size: 56px;
+	font-size: 35px;
 	font-weight: 100;
 	padding: 0 35px 0 45px;
 	margin: 0 0 0 -33px;
@@ -584,7 +584,9 @@ body {
 	background-color: #dddddd;
 	border: 1px solid #c1b8b4;
 }
-
+.form_2-head {
+	text-align: center;
+}
 @media screen and (min-width: 768px) {
 	.container2 {
 		max-width: 750px;
@@ -603,6 +605,16 @@ body {
 		#form_2 .general_form {
 			margin: 0;
 		}
+		#form_2 .title {
+			font-size: 56px;
+		}
+		.form_2-head {
+			text-align: left;
+		}
+		.hover-white {
+			display: none;
+		}
+
 }
 
 /* END */
