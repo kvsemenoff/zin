@@ -7,75 +7,93 @@ body {
 	margin-left: 30px;
 }
 /* General Style */
-	.content {
-		margin: 0 auto;
-		position: relative;
-		width: 920px;
-	}
+.content {
+	margin: 0 auto;
+	position: relative;
+	width: 920px;
+}
 
+.content2 {
+	margin: 0 auto;
+	padding: 0 0 0 20px;
+	position: relative;
+	max-width: 1000px;
+}
+.content2 .box {
+	text-align: center;
+}
+@media only screen and (min-width : 992px) {
 	.content2 {
-		margin: 0 auto;
-		padding: 0 0 0 70px;
-		position: relative;
-		width: 1000px;
+		padding: 0 0 0 20px;
 	}
-
-	.clear {
-		clear: both;
+	.content2 .box {
+		text-align: left;
 	}
+}
 
-	.general_form .title_form {
-		color: #000000;
-		text-align:center;
-		font-size: 29px;
-		font-weight: 400;
-	}
+.clear {
+	clear: both;
+}
 
-	.general_form .text_form {
-		font-size: 20px;
-		font-weight: 200;
-	}
+.general_form .title_form {
+	color: #000000;
+	text-align:center;
+	font-size: 29px;
+	font-weight: 400;
+}
 
+.general_form .text_form {
+	font-size: 20px;
+	font-weight: 200;
+}
+
+.button_1 {
+	background-color: #ffe220;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 -5px 0 #d9c01b inset;
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	height: 40px;
+	outline: none;
+	margin: 10px auto;
+	text-align: center;
+	text-transform: uppercase;
+	width: 250px;
+	margin: 10px 0 10px 0px;
+}
+@media only screen and (min-width : 992px) {
 	.button_1 {
-		background-color: #ffe220;
-		border: none;
-		border-radius: 5px;
-		box-shadow: 0 -5px 0 #d9c01b inset;
-		display: block;
-		font-size: 14px;
-		font-weight: 600;
-		height: 40px;
-		outline: none;
-		margin: 10px auto;
-		text-align: center;
-		text-transform: uppercase;
-		width: 250px;
+		display: inline-block;
+		margin-left: 15px;
 	}
+}
 
-	.button_2 {
-		background-color: #f8b930;
-		border: none;
-		border-radius: 5px;
-		box-shadow: 0 -5px 0 #d39d29 inset;
-		color: #ffffff !important;
-		display: block;
-		font-size: 14px;
-		font-weight: 600;
-		height: 40px;
-		outline: none;
-		margin: 10px 0;
-		padding: 9px 0 0;
-		text-align: center;
-		text-decoration: none !important;
-		text-transform: uppercase;
-		width: 130px;
-	}
+.button_2 {
+	background-color: #f8b930;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 -5px 0 #d39d29 inset;
+	color: #ffffff !important;
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	height: 40px;
+	outline: none;
+	margin: 10px 0;
+	padding: 9px 0 0;
+	text-align: center;
+	text-decoration: none !important;
+	text-transform: uppercase;
+	width: 130px;
+}
 
-	.large {
-		font-size: 56px;
-		font-weight: 100;
-		text-transform: uppercase;
-	}
+.large {
+	font-size: 56px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
 
 /* --- */
 
@@ -88,16 +106,20 @@ body {
 #form_1 {
 	background: url(../images/pictures/bg_02.jpg) no-repeat scroll center bottom transparent;
 	background-size:cover;
-	height: 500px;
+	/*height: 500px;*/
 	margin: 67px 0 0;
-	padding: 40px 0 0;
+	padding: 1px 0 40px;
 }
 
 #form_1 .form {
-	margin: 0 0 0 240px;
-	width: 520px;
+	/*margin: 0 0 0 240px;*/
+	max-width: 520px;
 }
-
+@media only screen and (min-width : 992px) {
+	#form_1 .form {
+		margin: 0 0 0 240px;
+	}
+}
 #form_1 .subtitle {
 	font-size: 30px;
 	font-weight: 100;
@@ -298,9 +320,9 @@ body {
 	height: 272px;
 	width: 452px;
 	border: 15px solid rgba(0,0,0,.0);
-box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
-border-radius: 10px;
-margin: 2px;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	margin: 2px;
 }
 #video_2 .carousel {
 	width:1000px;

@@ -33,7 +33,7 @@
                 <input class="form-control" name="referer2" type="hidden" value="<?=$referer2?>">
                 <input class="form-control" name="phrase" type="hidden" value="<?=$phrase?>">
                 <input class="form-control" name="phone" type="text" placeholder="Введите телефон" id="inp2" data-toogle="popover" data-content="Поле не заполнено!" data-placement="top" />
-                <input class="button_1" style="display: inline-block; margin: 0 0 0 15px;" required type="submit" value="Забронировать дату" onClick="proverka(2)" id="win2" data-toogle="popover" data-content=" Cпасибо, что оставили заявку, наши специалисты свяжутся с Вами в ближайшее время!" data-placement="top" />
+                <input class="button_1" required type="submit" value="Забронировать дату" onClick="proverka(2)" id="win2" data-toogle="popover" data-content=" Cпасибо, что оставили заявку, наши специалисты свяжутся с Вами в ближайшее время!" data-placement="top" />
               </form>
             </div>
           </div>
