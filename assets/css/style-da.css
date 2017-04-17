@@ -1,27 +1,37 @@
+input{
+
+}
 #header {
-	background: url(../images/pictures/bg_01.jpg) no-repeat scroll center 0 transparent;
+	background: url(../images/pictures/bg_mob.jpg) no-repeat scroll center 0 transparent;
 	//height: 1024px;
 	padding: 20px 0 0;
+	background-size: cover;
+	position: relative;
+
+}
+#header:before {
+	position: absolute;
+	content: "";
+	background: rgba(255,255,255, 0.8);
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
 }
 
-@media (min-width: 1796px) {
-	#header {
-	  background-size:cover;
-	  height:1100px;
-	}
-}
+
 #header  .logo {
 	background: url("../images/Z300-2.png") no-repeat scroll 0 0 transparent;
-	//float: left;
 	height: 120px;
-	//margin: 0 360px 0 0;
 	width: 250px;
 }
 
 #header  .phone_box {
 	padding: 15px 0 0;
-	max-width: 320px;
-	 margin-left: auto;
+	max-width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 30px;
 }
 
 #header  .phone_box .phone {
@@ -49,27 +59,59 @@
 }
 
 #header .title {
-	font-size: 56px;
+	font-size: 25px;
+	text-align: center;
 	font-weight: 100;
 	margin: 42px 0 33px;
 	text-transform: uppercase;
 }
+#header .title .text{
+	display: block;
+	font-weight: 600;
+}
 
 #header .video .bg_video {
 	background: url(../images/icons/01.png) no-repeat scroll 0 0 transparent;
-	height: 373px;
-	width: 936px;
+	//height: 373px;
+	//width: 936px;
+	width: 100%;
+	max-width: 520px;
+	margin: 0 auto;
 }
 
+.bg_video__element{
+	width: 100%;
+	max-width: 520px;
+	height: 320px;
+	margin: 0 auto;
+	border: none !important;
+}
 #header .general_form {
-	opacity: 0.7;
+	
 	border-top: 1px solid rgba(249, 223, 166, 0.3);
 	border-bottom: 1px solid rgba(249, 223, 166, 0.3);
 	padding: 10px 0 5px;
 	//position: absolute;
 	//right: 55px;
 	//top: 418px;
-	width: 250px;
+	//width: 250px;
+	
+	
+
+	margin: 0 auto;
+	margin-top: 30px;
+
+}
+#header .general_form2:before {
+	position: absolute;
+	content: "";
+	background: rgba(255,255,255, 0.8);
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 50;
+
 }
 
 #header .general_form .text_form {
@@ -79,7 +121,8 @@
 }
 
 #header .balls1 {
-	margin: 4px 0 0;
+	text-align: center;
+	margin-top: 35px;
 }
 
 #header .balls1 p {
@@ -87,8 +130,8 @@
 	color: #553A00;
 	font-size: 20px;
 	font-weight: 300;
-	margin: 0;
-	padding: 0 0 0 33px;
+	
+	
 }
 
 #header .balls1 p .title {
@@ -127,4 +170,57 @@
 	color: #414141;
 	font-size: 16px;
 	font-weight: 100;
+}
+.content_form {
+	text-align: center;
+}
+.content_form input[type="text"]{
+	max-width: 250px;
+	margin: 0 auto;
+}
+@media only screen and (min-width: 480px) {
+	#header .title {
+		font-size: 25px;
+		font-weight: 100;
+		margin: 42px 0 33px;
+		text-transform: uppercase;
+	 	text-align: center;
+	}
+}
+@media only screen and (min-width: 992px) {
+	#header .title {
+		font-size: 56px;
+		text-align: unset;
+	}
+	#header:before {
+		background: none;
+	}
+	#header  .phone_box {
+		margin-bottom: unset;
+	}
+	#header .video .bg_video {
+		margin: unset;
+	}
+	#header .general_form {
+		margin-top: unset;
+		background: rgba(255,255,255, 0.8);
+	}
+	.bg_video__element{
+		width: 520px;
+		margin: unset;
+
+	}
+
+}
+@media only screen and (max-width: 992px) {
+	#header  .logo {
+	 	margin: 0 auto;
+	}
+	
+}
+@media (min-width: 992px) {
+	#header {
+	 	background: url(../images/pictures/bg_01_1.jpg) no-repeat scroll center 0 transparent;
+	  	height:1100px;
+	}
 }
