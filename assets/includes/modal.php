@@ -9,7 +9,7 @@
                 <input class="form-control" name="referer" type="hidden" value="<?=$referer?>">
                 <input class="form-control" name="referer2" type="hidden" value="<?=$referer2?>">
                 <input class="form-control" name="phrase" type="hidden" value="<?=$phrase?>">
-              <h3>Оставьте заявку</h3>
+              <h3 style="text-align: center">Оставьте заявку</h3>
               <input style="display: block; margin: 0 auto 10px;" class="form-control" name="name" type="text" placeholder="Ваше имя" />
               <input style="display: block; margin: 0 auto 10px;" class="form-control" name="phone" type="text" placeholder="Введите телефон" id="inp0" data-toogle="popover" data-content="Поле не заполнено!" data-placement="top" />
               <input style="display: block; margin: 0 auto;" class="button_1" required type="submit" value="Отправить" onClick="proverka(0)" id="win0" data-toogle="popover" data-content=" Cпасибо, что оставили заявку, наши специалисты свяжутся с Вами в ближайшее время!" data-placement="top" />
@@ -33,7 +33,7 @@
                 <input class="form-control" name="referer" type="hidden" value="<?=$referer?>">
                 <input class="form-control" name="referer2" type="hidden" value="<?=$referer2?>">
                 <input class="form-control" name="phrase" type="hidden" value="<?=$phrase?>">
-              <h3>Получить бесплатную консультацию<br /><b><span id="namePacked"></span></b></h3>
+              <h3 style="text-align: center">Получить бесплатную консультацию<br /><b><span id="namePacked"></span></b></h3>
               <input id="nameServices" name="nameServices" type="hidden" />
               <input style="display: block; margin: 0 auto 10px;" class="form-control" name="name" type="text" placeholder="Ваше имя" />
               <input style="display: block; margin: 0 auto 10px;" class="form-control" name="phone" type="text" placeholder="Введите телефон" id="inp5" data-toogle="popover" data-content="Поле не заполнено!" data-placement="top" />
