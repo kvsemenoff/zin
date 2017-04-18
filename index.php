@@ -1,25 +1,25 @@
 <?php
-	$referer = $_SERVER['HTTP_REFERER'];
-	$referer2 = $_SERVER['REQUEST_URI'];
+$referer = $_SERVER['HTTP_REFERER'];
+$referer2 = $_SERVER['REQUEST_URI'];
 
-	if ($referer2 == "/?utm_source=yandex&utm_medium=cpc&utm_campaign=usual") $referer2 = 'Яндекс.Директ';
-	elseif ($referer2 == "?aclk?sa=l&ai=") $referer2 = 'Google AdWords';
-	else $referer2 = 'Пользователь перешел на сайт не по рекламному объявлению';
+if ($referer2 == "/?utm_source=yandex&utm_medium=cpc&utm_campaign=usual") $referer2 = 'Яндекс.Директ';
+elseif ($referer2 == "?aclk?sa=l&ai=") $referer2 = 'Google AdWords';
+else $referer2 = 'Пользователь перешел на сайт не по рекламному объявлению';
 
-	if (stristr($referer, 'yandex.ru')) { $search = 'text='; $crawler = 'Yandex'; }
-	if (stristr($referer, 'rambler.ru')) { $search = 'words='; $crawler = 'Rambler'; }
-	if (stristr($referer, 'google.ru')) { $search = 'q='; $crawler = 'Google'; }
-	if (stristr($referer, 'google.com')) { $search = 'q='; $crawler = 'Google'; }
-	if (stristr($referer, 'mail.ru')) { $search = 'q='; $crawler = 'Mail.Ru'; }
-	if (stristr($referer, 'bing.com')) { $search = 'q='; $crawler = 'Bing'; }
-	if (stristr($referer, 'qip.ru')) { $search = 'query='; $crawler = 'QIP'; }
+if (stristr($referer, 'yandex.ru')) { $search = 'text='; $crawler = 'Yandex'; }
+if (stristr($referer, 'rambler.ru')) { $search = 'words='; $crawler = 'Rambler'; }
+if (stristr($referer, 'google.ru')) { $search = 'q='; $crawler = 'Google'; }
+if (stristr($referer, 'google.com')) { $search = 'q='; $crawler = 'Google'; }
+if (stristr($referer, 'mail.ru')) { $search = 'q='; $crawler = 'Mail.Ru'; }
+if (stristr($referer, 'bing.com')) { $search = 'q='; $crawler = 'Bing'; }
+if (stristr($referer, 'qip.ru')) { $search = 'query='; $crawler = 'QIP'; }
 
-	if (isset($crawler)) {
-		$phrase = urldecode($referer);
-		preg_match($search.'([^&]*)', $phrase.'&', $phrase2);
-		$phrase = $phrase2[1];
-		$referer = $crawler;
-	}
+if (isset($crawler)) {
+	$phrase = urldecode($referer);
+	preg_match($search.'([^&]*)', $phrase.'&', $phrase2);
+	$phrase = $phrase2[1];
+	$referer = $crawler;
+}
 ?>
 
 <!doctype html>
@@ -68,7 +68,7 @@
       //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       // })();
 
-    </script>
+  </script>
 </head>
 <body>
 	<?php require_once('assets/includes/header_top.php');?>
@@ -77,10 +77,18 @@
 	<?php require_once('assets/includes/prices.php');?>
 	<?php require_once('assets/includes/video2.php');?>
 	<?php require_once('assets/includes/balls3.php');?>
-	<?php require_once('assets/includes/form2.php');?>
+
+<!--  -->
+    <?php require_once('assets/includes/form2.php');?>
+<!--  -->
+
 	<?php require_once('assets/includes/reviews.php');?>
 	<?php require_once('assets/includes/question.php');?>
-	<?php require_once('assets/includes/footer.php');?>
+	
+<!--  -->
+<?php require_once('assets/includes/footer.php');?>
+<!--  -->
+
 	<?php require_once('assets/includes/modal.php');?>
 </body>
 </html>

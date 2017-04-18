@@ -1,7 +1,7 @@
 <div id="prices">
   <div class="content2">
     <h1 class="large">К Вашим услугам...</h1>
-    <div class="row">
+    <div class="row no-margin">
       <div class="col-md-4">
         <div class="box">
           <div class="img">

@@ -1,7 +1,7 @@
 <div id="balls1">
   <div class="content2">
     <h1 class="large">Почему эти пары<br />выбрали именно нас?</h1>
-    <div class="row">
+    <div class="row no-margin">
       <div class="col-md-4">
         <div class="box">
           <div class="img">
@@ -30,7 +30,7 @@
 </div>
 </div>
 </div>
-<div class="row">
+<div class="row no-margin">
   <div class="col-md-4">
     <div class="box">
       <div class="img">

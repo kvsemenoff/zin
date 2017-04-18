@@ -2,7 +2,7 @@
   <div class="content">
     <h1 class="large">Отзывы</h1>
     <div class="box">
-      <div class="row">
+      <div class="row no-margin">
       <div class="col-md-6">
           <div class="video">
             <div class="inside_video">
@@ -40,7 +40,7 @@
 </div>
 </div>
 <div class="box">
-  <div class="row">
+  <div class="row no-margin">
     <div class="col-md-6">
       <div class="video">
         <div class="inside_video">
@@ -78,7 +78,7 @@
 </div>
 </div>
 <div class="box">
-  <div class="row">
+  <div class="row no-margin">
     <div class="col-md-6">
       <div class="video">
         <div class="inside_video">

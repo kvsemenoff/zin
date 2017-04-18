@@ -20,10 +20,15 @@
 .countdown_row {
 	display: block;
 	height: 70px;
-	margin: 10px auto 0;
-	width: 305px;
+	margin: 10px auto ;
+	/*width: 305px;*/
+	width: 250px;
 }
-
+@media only screen and (min-width : 320px) {
+	.countdown_row {
+		width: 305px;
+	}
+}
 .countdown_show1 .countdown_section {
 	width: 98%;
 }
