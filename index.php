@@ -73,22 +73,14 @@ if (isset($crawler)) {
 <body>
 	<?php require_once('assets/includes/header_top.php');?>
 	<?php require_once('assets/includes/balls.php');?>
-	<?php require_once('assets/includes/form1.php');?>
+	<?php /* require_once('assets/includes/form1.php'); */?> 
 	<?php require_once('assets/includes/prices.php');?>
 	<?php require_once('assets/includes/video2.php');?>
 	<?php require_once('assets/includes/balls3.php');?>
-
-<!--  -->
     <?php require_once('assets/includes/form2.php');?>
-<!--  -->
-
 	<?php require_once('assets/includes/reviews.php');?>
 	<?php require_once('assets/includes/question.php');?>
-	
-<!--  -->
-<?php require_once('assets/includes/footer.php');?>
-<!--  -->
-
+	<?php require_once('assets/includes/footer.php');?>
 	<?php require_once('assets/includes/modal.php');?>
 </body>
 </html>
