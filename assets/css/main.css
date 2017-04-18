@@ -12,7 +12,7 @@ body {
 .content {
 	margin: 0 auto;
 	position: relative;
-	width: 920px;
+	max-width: 920px;
 }
 
 .content2 {
@@ -438,10 +438,19 @@ body {
 #controls{
 	top:166px;
 }
+.photo{
+	display: none;
+}
+@media only screen and (min-width : 480px) {
+	.photo{
+		display: block;
+	}
+}
 #car_capt{
 	top:-7%;
 	left: 1% !important;
 	right: 1% !important;
+	height: 20px;
 }
 #video_2 .carousel-inner {
 	max-width:455px;
@@ -491,7 +500,8 @@ body {
 	border: 1px solid #e5e2d2;
 	border-radius: 10px;
 	height: 276px;
-	width: 446px;
+	max-width: 446px;
+	margin: 0 auto;
 }
 
 #reviews .video .inside_video {
@@ -499,7 +509,7 @@ body {
 	border: 1px solid #e5e2d2;
 	height: 236px;
 	margin: 20px auto 0;
-	width: 406px;
+	max-width: 406px;
 }
 
 #reviews .box_photo {
@@ -540,25 +550,38 @@ body {
 	color: #898989;
 	font-size: 20px;
 	font-weight: 100;
-	margin: 0 0 23px -15px;
-	padding: 0 0 15px 30px;
-	width: 360px;
+	/*margin: 0 0 23px -15px;*/
+	padding: 15px 10px;
+	/*padding: 0 0 15px 30px;*/
+	/*max-width: 360px;*/
+	margin: 0 auto;
+}
+@media only screen and (min-width : 480px) {
+	#reviews .name {
+		margin: 138px auto 0;
+	}
 }
 
 #reviews .name span {
 	color: #fc504c;
 	display: block;
 	font-weight: 600;
-	margin: 0;
+	/*margin: 140px 0 0;*/
 }
-
+@media only screen and (min-width : 992px) {
+	#reviews .name span, #reviews .name {
+		margin: 0px;
+	}
+}
 #reviews .text {
 	font-size: 16px;
 	font-weight: 100;
 	margin: 0 0 0 -15px;
-	padding: 0 30px 0;
+	/*padding: 0 30px 0;*/
 	text-align: justify;
-	width: 360px;
+	/*max-width: 360px;*/
+	margin: 0 auto;
+	padding: 15px 10px;
 }
 /* Form_2 and Question Blocks */
 .container2 {
