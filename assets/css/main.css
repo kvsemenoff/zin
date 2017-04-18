@@ -146,9 +146,9 @@ body {
 #prices .icon_wedding {
 	background: url(../images/icons/05.png) no-repeat scroll 0 0 transparent;
 	height: 110px;
-	left: 524px;
+	left: 483px;
 	position: absolute;
-	top: 471px;
+	top: 525px;
 	width: 89px;
 }
 
@@ -187,6 +187,7 @@ body {
 @media only screen and (min-width : 992px) {
 	#prices .table_prices {
 		display: block;
+
 	}
 	.icon_wedding{
 		display: block;
@@ -205,15 +206,31 @@ body {
 	border: 1px solid #cccccc;
 	border-radius: 5px;
 	height: 50px;
-	width: 880px;
+	width: 100%;
 }
-
+.box__price_1{
+	padding-right: 16px;
+}
+.box__price_2{
+	padding-right: 7px;
+	margin-left: -1px;
+}
+.box__price_3{
+	padding-right: 82px;
+}
+.col-width{
+	width: 20%;
+}
+.p__bottom{
+	margin-bottom: 15px;
+}
 #prices .table_prices .title .name_td_title {
 	color: #04aed2;
 	font-size: 20px;
 	margin: 11px 0 0;
 	text-transform: uppercase;
-	text-align: center;
+	text-align: right;
+	padding-right: 20px;
 }
 
 #prices .table_prices .title .name_td_title .arrow1 {
@@ -221,7 +238,7 @@ body {
 	border-top: 10px solid #c0c0c0;
 	border-right: 10px solid rgba(0, 0, 0, 0);
 	height: 0;
-	left: 73px;
+	right: 58px;
 	position: absolute;
 	top: 48px;
 	width: 0;
@@ -233,13 +250,58 @@ body {
 	border-top: 9px solid #ffffff;
 	border-right: 9px solid rgba(0, 0, 0, 0);
 	height: 0;
-	left: 74px;
+	right: 58px;
 	position: absolute;
 	top: 48px;
 	width: 0;
 	z-index: 1;
 }
+#prices .table_prices .title .name_td_title .arrow3 {
+	border-left: 10px solid rgba(0, 0, 0, 0);
+	border-top: 10px solid #c0c0c0;
+	border-right: 10px solid rgba(0, 0, 0, 0);
+	height: 0;
+	right: 109px;
+	position: absolute;
+	top: 48px;
+	width: 0;
+	z-index: 0;
+}
 
+#prices .table_prices .title .name_td_title .arrow4 {
+	border-left: 9px solid rgba(0, 0, 0, 0);
+	border-top: 9px solid #ffffff;
+	border-right: 9px solid rgba(0, 0, 0, 0);
+	height: 0;
+	right: 109px;
+	position: absolute;
+	top: 48px;
+	width: 0;
+	z-index: 1;
+}
+#prices .table_prices .title .name_td_title .arrow5 {
+	border-left: 10px solid rgba(0, 0, 0, 0);
+	border-top: 10px solid #c0c0c0;
+	border-right: 10px solid rgba(0, 0, 0, 0);
+	height: 0;
+	right: 159px;
+	position: absolute;
+	top: 48px;
+	width: 0;
+	z-index: 0;
+}
+
+#prices .table_prices .title .name_td_title .arrow6 {
+	border-left: 9px solid rgba(0, 0, 0, 0);
+	border-top: 9px solid #ffffff;
+	border-right: 9px solid rgba(0, 0, 0, 0);
+	height: 0;
+	right: 159px;
+	position: absolute;
+	top: 48px;
+	width: 0;
+	z-index: 1;
+}
 #prices .table_prices .center {
 	margin: 14px 0 0;
 }
@@ -265,6 +327,7 @@ body {
 	font-size: 20px;
 	font-weight: 100;
 	margin: 0;
+	text-align: center;
 }
 
 #prices .table_prices .bottom {
@@ -273,13 +336,13 @@ body {
 	color: #ffffff;
 	height: 50px;
 	margin: 38px 0 0;
-	width: 880px;
+	/*width: 880px;*/
 }
 
 #prices .table_prices .bottom .price_name {
 	font-size: 16px;
 	font-weight: 100;
-	margin: 18px 30px 0 0;
+	margin: 15px 0;
 	text-align: right;
 }
 

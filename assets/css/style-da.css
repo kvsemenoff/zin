@@ -153,7 +153,7 @@ input{
 
 #balls1 .box {
 	min-height: 460px;
-	width: 290px;
+	/*max-width: 290px;*/
 }
 
 #balls1 .box .img img {
