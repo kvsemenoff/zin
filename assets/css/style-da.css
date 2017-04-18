@@ -180,49 +180,37 @@ input{
 }
 
 #balls_3 {
-	background: url(../images/icons/balls_03.jpg) no-repeat scroll center 180px transparent;
-	height: 490px;
-	padding: 30px 0 0;
+	padding-top: 30px;
+	font-size: 25px;
+	font-weight: 100;
 }
 
 #balls_3 p {
-	color: #414141;
-	font-size: 16px;
-	font-weight: 100;
-	position: absolute;
+
 }
 
 #balls_3 .text1 {
-	left: 130px;
-	top: 132px;
+
 }
 
 #balls_3 .text2 {
-	left: 170px;
-	text-align: right;
-	top: 402px;
+
 }
 
 #balls_3 .text3 {
-	left: 434px;
-	top: 120px;
+	
 }
 
 #balls_3 .text4 {
-	left: 470px;
-	text-align: right;
-	top: 402px;
+
 }
 
 #balls_3 .text5 {
-	left: 732px;
-	top: 132px;
+	
 }
 
 #balls_3 .text6 {
-	left: 726px;
-	text-align: right;
-	top: 380px;
+	
 }
 
 @media only screen and (min-width: 480px) {
@@ -256,6 +244,52 @@ input{
 		width: 520px;
 		margin: unset;
 
+	}
+	#balls_3 {
+		background: url(../images/icons/balls_03.jpg) no-repeat scroll center 180px transparent;
+		height: 490px;
+		padding-top: unset;
+		padding: 30px 0 0;
+	}
+
+	#balls_3 p {
+		color: #414141;
+		font-size: 16px;
+		font-weight: 100;
+		position: absolute;
+	}
+
+	#balls_3 .text1 {
+		left: 130px;
+		top: 132px;
+	}
+
+	#balls_3 .text2 {
+		left: 170px;
+		text-align: right;
+		top: 402px;
+	}
+
+	#balls_3 .text3 {
+		left: 434px;
+		top: 120px;
+	}
+
+	#balls_3 .text4 {
+		left: 470px;
+		text-align: right;
+		top: 402px;
+	}
+
+	#balls_3 .text5 {
+		left: 732px;
+		top: 132px;
+	}
+
+	#balls_3 .text6 {
+		left: 726px;
+		text-align: right;
+		top: 380px;
 	}
 
 }
