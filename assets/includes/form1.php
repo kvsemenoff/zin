@@ -22,7 +22,7 @@
           $('#myCountdown').countdown({until: new Date(2017, 04, 1, 21), padZeroes: true,  format: 'DHMS'});
       </script>
   </div>
-</div>
+
 <div class="general_form">
     <div class="form_content">
       <div id="fields2">
@@ -36,6 +36,7 @@
             <input class="button_1" required type="submit" value="Забронировать дату" onClick="proverka(2)" id="win2" data-toogle="popover" data-content=" Cпасибо, что оставили заявку, наши специалисты свяжутся с Вами в ближайшее время!" data-placement="top" />
         </form>
     </div>
+</div>
 </div>
 </div>
 </div>

@@ -4,7 +4,6 @@ input{
 #header {
 	background: url(../images/pictures/bg_mob.jpg) no-repeat scroll center 0 transparent;
 	//height: 1024px;
-	padding: 20px 0 0;
 	background-size: cover;
 	position: relative;
 
@@ -55,7 +54,7 @@ input{
 }
 
 #header  .phone_box a:hover {
-	text-decoration: none;	
+	text-decoration: none;
 }
 
 #header .title {
@@ -87,7 +86,7 @@ input{
 	border: none !important;
 }
 #header .general_form {
-	
+
 	border-top: 1px solid rgba(249, 223, 166, 0.3);
 	border-bottom: 1px solid rgba(249, 223, 166, 0.3);
 	padding: 10px 0 5px;
@@ -95,8 +94,8 @@ input{
 	//right: 55px;
 	//top: 418px;
 	//width: 250px;
-	
-	
+
+
 
 	margin: 0 auto;
 	margin-top: 30px;
@@ -130,8 +129,8 @@ input{
 	color: #553A00;
 	font-size: 20px;
 	font-weight: 300;
-	
-	
+
+
 }
 
 #header .balls1 p .title {
@@ -161,14 +160,16 @@ input{
 }
 
 #balls1 .box .title {
-	font-size: 26px;
+	font-size: 20px;
+	line-height: 20px;
 	font-weight: 600;
 	margin: 18px 0 10px;
 }
 
 #balls1 .box .text {
 	color: #414141;
-	font-size: 16px;
+	font-size: 14px;
+	line-height: 18px;
 	font-weight: 100;
 }
 .content_form {
@@ -186,7 +187,10 @@ input{
 }
 
 #balls_3 p {
-
+	font-size: 20px;
+	line-height: 20px;
+	padding-left: 30px;
+	margin-bottom: 20px;
 }
 
 #balls_3 .text1 {
@@ -198,7 +202,7 @@ input{
 }
 
 #balls_3 .text3 {
-	
+
 }
 
 #balls_3 .text4 {
@@ -206,11 +210,11 @@ input{
 }
 
 #balls_3 .text5 {
-	
+
 }
 
 #balls_3 .text6 {
-	
+
 }
 
 @media only screen and (min-width: 480px) {
@@ -223,6 +227,9 @@ input{
 	}
 }
 @media only screen and (min-width: 992px) {
+	#header {
+		padding: 20px 0 0;
+	}
 	#header .title {
 		font-size: 56px;
 		text-align: unset;
@@ -245,6 +252,10 @@ input{
 		margin: unset;
 
 	}
+	#balls1 .box .text {
+		font-size: 16px;
+		line-height: 18px;
+	}
 	#balls_3 {
 		background: url(../images/icons/balls_03.jpg) no-repeat scroll center 180px transparent;
 		height: 490px;
@@ -257,6 +268,8 @@ input{
 		font-size: 16px;
 		font-weight: 100;
 		position: absolute;
+		margin-bottom: 0;
+		padding-left: 0;
 	}
 
 	#balls_3 .text1 {
@@ -291,13 +304,17 @@ input{
 		text-align: right;
 		top: 380px;
 	}
+	#balls1 .box .title {
+		font-size: 26px;
+		line-height: 26px;
+	}
 
 }
 @media only screen and (max-width: 992px) {
 	#header  .logo {
 	 	margin: 0 auto;
 	}
-	
+
 }
 @media (min-width: 992px) {
 	#header {

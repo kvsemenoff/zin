@@ -31,7 +31,7 @@
 </div>
 </div>
 <div class="row no-margin">
-  <div class="col-md-4">
+  <div class="col-md-4 hidden-xs hidden-sm">
     <div class="box">
       <div class="img">
         <img src="assets/images/pictures/balls4.jpg" alt="image icon balls" />
@@ -40,7 +40,7 @@
     <p class="text">Вы всегда можете внести<br /><b>коррективы</b> в готовый материал.<br />При желании мы используем в <br />процессе монтажа <b>вашу любимую музыку</b>.</p>
 </div>
 </div>
-<div class="col-md-4">
+<div class="col-md-4 hidden-xs hidden-sm">
     <div class="box">
       <div class="img">
         <img src="assets/images/pictures/balls5.jpg" alt="image icon balls" />
@@ -49,7 +49,7 @@
     <p class="text">Мы выполним работу <b>максимально качественно</b> и без задержек по срокам.Вы будете знать <b>точную дату</b><br />получения готовых клипа и фильма<br />которую мы пропишем в <b>договоре</b>.</p>
 </div>
 </div>
-<div class="col-md-4">
+<div class="col-md-4 hidden-xs hidden-sm">
     <div class="box">
       <div class="img">
         <img src="assets/images/pictures/balls6.jpg" alt="image icon balls" />

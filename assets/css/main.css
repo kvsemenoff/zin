@@ -104,11 +104,13 @@ body {
 	font-size: 28px;
 	font-weight: 100;
 	text-transform: uppercase;
+	text-align: center;
 }
 @media only screen and (min-width : 992px) {
 	.large {
 		font-size: 56px;
 		line-height: 56px;
+		text-align: left;
 	}
 }
 /* --- */
@@ -200,7 +202,6 @@ body {
 #prices .table_prices {
 	background: url(../images/icons/04.png) no-repeat scroll 220px 80px transparent;
 	margin: 37px 0 0;
-	display: none;
 }
 .icon_wedding{
 	display: none;
@@ -398,7 +399,15 @@ body {
 #prices .table_prices .button_price .col-5 {
 	width: 338px;
 }
-
+.price-text {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 30px;
+}
+.text-span {
+	font-size: 26px;
+	color: #C5A70A;
+}
 #video_2 {
 	background: url(../images/pictures/bg_03.jpg) no-repeat scroll center 0 transparent;
 	background-size:cover;
@@ -408,14 +417,13 @@ body {
 }
 
 #video_2 .title {
-	/*font-size: 36px;*/
-	font-size: 26px;
+	font-size: 22px;
 	font-weight: 100;
+	text-align: center;
 }
 @media only screen and (min-width : 768px) {
 	#video_2 .title {
 		font-size: 36px;
-
 	}
 }
 
@@ -654,7 +662,7 @@ body {
 }
 
 #form_2 .general_form {
-	width: 300px;
+	width: 285px;
 	margin: auto;
 }
 

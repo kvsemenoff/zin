@@ -1,4 +1,31 @@
-    <div id="header">
+<div id="header">
+  <nav class="navbar navbar-default hidden-md hidden-lg" role="navigation">
+    <div class="container">
+      <!-- Название компании и кнопка, которая отображается для мобильных устройств группируются для лучшего отображения при свертывании -->
+      <div class="navbar-header">
+        <a style="color: #C5A70A; display:inline-block; margin: 15px 0 0 10px" href="tel:89264539579">8 (926) 453-95-79</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Группируем ссылки, формы, выпадающее меню и прочие элементы -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#balls1">Свадебное видео</a></li>
+          <li><a href="#form_1">Акция</a></li>
+          <li><a href="#video_2">Портфолио</a></li>
+          <li><a href="#prices">Цены</a></li>
+          <li><a href="#reviews">Отзывы</a></li>
+          <li><a href="#footer">Контакты</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
         <div class="container">
             <div class="row">
                 <div class="col-md-2">
@@ -13,7 +40,7 @@
                 </div>
                 <div class="col-md-12">
                     <h1 class="title"><span class="text" >Свадебное видео</span>видеоролик на следующий<br />день после свадьбы! <br /></h1>
-                </div>  
+                </div>
                 <div class="clearfix"></div>
                 <div class="col-md-7">
                     <div class="video">
@@ -22,7 +49,7 @@
                             style="margin: 18px 0 0 18px;" src="//player.vimeo.com/video/204238910?title=0&amp;byline=0&amp;portrait=0" width="520" height="320" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
                             <iframe onclick="yaCounter24321856.reachGoal('PROSMOTRVIDEO'); return true;"
                             src="//player.vimeo.com/video/204238910?title=0&amp;byline=0&amp;portrait=0" class="bg_video__element" allowfullscreen></iframe>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -48,8 +75,8 @@
                 <div class="clearfix"></div>
 
                 <div class="balls1">
-                    
-                    
+
+
                         <div class="col-md-4">
                             <p><span class="title">более<span class="number" > 7</span> лет</span>Помогаем сохранить<br />Ваши воспоминания</p>
                         </div>
@@ -59,7 +86,7 @@
                         <div class="col-md-4">
                             <p><span class="title">от<span class="number"> 30</span> тысяч</span>стоимость наших <br />услуг</p>
                         </div>
-                    
+
                 </div>
             </div>
         </div>
