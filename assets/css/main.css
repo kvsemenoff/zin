@@ -4,9 +4,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 
 }
-#vk_groups {
-	float:left;
-}
+
 /* General Style */
 .content {
 	margin: 0 auto;
@@ -45,12 +43,12 @@ body {
 .general_form .title_form {
 	color: #000000;
 	text-align:center;
-	font-size: 29px;
+	font-size: 24px;
 	font-weight: 400;
 }
 
 .general_form .text_form {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 200;
 }
 
@@ -103,14 +101,14 @@ body {
 	width: 250px;
 }
 .large {
-	/*font-size: 56px;*/
-	font-size: 33px;
+	font-size: 28px;
 	font-weight: 100;
 	text-transform: uppercase;
 }
-@media only screen and (min-width : 480px) {
+@media only screen and (min-width : 992px) {
 	.large {
 		font-size: 56px;
+		line-height: 56px;
 	}
 }
 /* --- */
@@ -617,11 +615,14 @@ body {
 	padding: 30px 0 30px 0;
 	position: relative;
 }
-
+.form_content {
+	text-align: center;
+}
 #form_2 .title {
 	color: #e13837;
 	display: inline-block;
-	font-size: 35px;
+	font-size: 30px;
+	line-height: 30px;
 	font-weight: 100;
 	padding: 0 35px 0 45px;
 	margin: 0 0 0 -33px;
@@ -629,18 +630,20 @@ body {
 }
 
 #form_2 .title .quotes_top {
-	font-size: 100px;
-	left: 0;
+	font-size: 60px;
+	left: 26px;
 	position: absolute;
-	top: -10px;
+	top: -4px;
 }
 .form_2-wrapp {
 	position: relative;
 }
 
 #form_2 .title .quotes_bottom {
-	font-size: 100px;
+	font-size: 60px;
 	position: absolute;
+	top: 18px;
+	right: -22px;
 }
 
 #form_2 .text {
@@ -651,7 +654,7 @@ body {
 }
 
 #form_2 .general_form {
-	width: 285px;
+	width: 300px;
 	margin: auto;
 }
 
@@ -687,7 +690,7 @@ body {
 	}
 
 	#question {
-		background: url(../images/pictures/bg_07.jpg) no-repeat scroll center 0 transparent;
+		background: url(../images/pictures/bg_07.jpg) no-repeat 51% 0;
 		height: 355px;
 		padding: 5px 0 0;
 	}
@@ -759,9 +762,12 @@ body {
 		font-size: 12px;
 	}
 	.vk-footer {
+		margin: auto;
 		margin-bottom: 50px;
 	}
-
+	#vk_groups {
+		width: 300px !important;
+	}
 	.modal-content {
 		width: 100%;
 		max-width: 300px;
@@ -797,6 +803,7 @@ body {
 		.vk-footer {
 			margin-bottom: 0;
 		}
+
 		#footer {
 			text-align: left;
 		}
@@ -812,6 +819,13 @@ body {
 		#form_2 .title {
 			font-size: 56px;
 		}
+		.general_form .title_form {
+			font-size: 29px;
+		}
+
+		.general_form .text_form {
+			font-size: 20px;
+		}
 		.form_2-head {
 			text-align: left;
 		}
@@ -823,6 +837,23 @@ body {
 		}
 		.politiks_modal {
 			max-width: unset;
+		}
+		#form_2 .title {
+			font-size: 56px;
+			line-height: 56px;
+		}
+		#form_2 .title .quotes_top, #form_2 .title .quotes_bottom {
+			font-size: 100px;
+		}
+		#form_2 .title .quotes_top {
+			left: 16px;
+		}
+		#form_2 .title .quotes_bottom {
+			top: 29px;
+			right: -34px;
+		}
+		.form_content {
+			text-align: left;
 		}
 	}
 	@media screen and (min-width: 1248px) {

@@ -37,7 +37,7 @@ if (isset($crawler)) {
 
 	<link type="text/css" rel="stylesheet" href="assets/css/jquery.countdown.css" />
 	<link type="text/css" rel="stylesheet" href="assets/css/lightbox.css" />
-	
+
 	<!-- Bootstrap CSS -->
 
 	<!-- <link rel="stylesheet" href="assets/css/bootstrap-grid-3.3.1.min.css" /> -->

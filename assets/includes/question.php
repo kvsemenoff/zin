@@ -4,8 +4,8 @@
       <div class="general_form">
         <div class="form_content">
           <div id="fields4">
-            <h1 class="large">Остались<br>вопросы?</h1>
-            <p class="text_form">Закажите звонок и мы<br>перезвоним Вам<br>в течение 15 минут</p>
+            <h1 class="large">Остались вопросы?</h1>
+            <p class="text_form">Закажите звонок и мы перезвоним Вам в течение 15 минут</p>
             <div class="content_form">
               <form id="ajax-contact-form4">
                   <input class="form-control" name="referer" type="hidden" value="<?=$referer?>">
