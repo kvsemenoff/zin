@@ -188,7 +188,7 @@ body {
 
 #prices .box .title {
 	color: #ff9914;
-	font-size: 26px;
+	font-size: 20px;
 	text-transform: uppercase;
 	margin: 22px 0 10px;
 }
@@ -210,6 +210,9 @@ body {
 	#prices .table_prices {
 		display: block;
 
+	}
+	#prices .box .title {
+		font-size: 26px;
 	}
 	.icon_wedding{
 		display: block;
