@@ -1,5 +1,5 @@
 <div id="header">
-  <nav class="navbar navbar-default hidden-md hidden-lg" role="navigation">
+  <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg" role="navigation">
     <div class="container">
       <!-- Название компании и кнопка, которая отображается для мобильных устройств группируются для лучшего отображения при свертывании -->
       <div class="navbar-header">
