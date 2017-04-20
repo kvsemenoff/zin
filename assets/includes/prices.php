@@ -1,3 +1,7 @@
+<div class="container hidden-md hidden-lg" id="mobile-prices">
+  <h1 class="large">ЦЕНЫ</h1>
+  <p class="text price-text">Стоимость видеосъемки зависит от количества операторов на площадке, пожеланий по монтажу и наличия других услуг. Минимальная стоимость видеосъемки свадьбы <br><span class="text-span">25 000 р.</span></p>
+</div>
 <div class="hidden-xs hidden-sm" id="prices">
   <div class="content2">
     <h1 class="large">К Вашим услугам...</h1>

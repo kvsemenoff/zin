@@ -52,11 +52,11 @@
   <iframe onclick="_gaq.push(['_trackEvent', 'video1', 'play']);" src="//player.vimeo.com/video/202620688?title=0&amp;byline=0&amp;portrait=0" width="100%" height="242px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 </div>
-<div class="item ">
+<div class="item">
   <div id="car_capt" class="carousel-caption">
     <p class="name"><span>Марат Башаров и Екатерина Архарова</span>Свадебный клип</p>
 </div>
-<div class="video_boxesss">
+<div class="video_boxesss cur-item">
   <iframe onclick="_gaq.push(['_trackEvent', 'video1', 'play']);" src="//player.vimeo.com/video/202618754?title=0&amp;byline=0&amp;portrait=0" width="100%" height="242px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 </div>

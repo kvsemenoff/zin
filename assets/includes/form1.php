@@ -26,7 +26,7 @@
 <div class="general_form">
     <div class="form_content">
       <div id="fields2">
-        <p class="text_form"><br />Оставьте заявку<br /></p>
+        <p class="text_form">Оставьте заявку</p>
         <div class="content_form">
           <form id="ajax-contact-form2" action="">
             <input class="form-control" name="referer" type="hidden" value="<?=$referer?>">

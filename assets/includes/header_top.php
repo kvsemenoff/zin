@@ -1,9 +1,8 @@
 <div id="header">
   <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg" role="navigation">
-    <div class="container">
       <!-- Название компании и кнопка, которая отображается для мобильных устройств группируются для лучшего отображения при свертывании -->
       <div class="navbar-header">
-        <a style="color: #C5A70A; display:inline-block; margin: 15px 0 0 10px" href="tel:89264539579">8 (926) 453-95-79</a>
+        <a style="color: #C5A70A; display:inline-block; margin: 15px 20px 0 30px" href="tel:89264539579">8 (926) 453-95-79</a>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
@@ -16,14 +15,13 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#balls1">Свадебное видео</a></li>
-          <li><a href="#form_1">Акция</a></li>
-          <li><a href="#video_2">Портфолио</a></li>
-          <li><a href="#prices">Цены</a></li>
-          <li><a href="#reviews">Отзывы</a></li>
-          <li><a href="#footer">Контакты</a></li>
+          <li><a href="#form_1" data-toggle="collapse" data-target=".navbar-collapse">Акция</a></li>
+          <li><a href="#video_2" data-toggle="collapse" data-target=".navbar-collapse">Портфолио</a></li>
+          <li><a href="#mobile-prices" data-toggle="collapse" data-target=".navbar-collapse">Цены</a></li>
+          <li><a href="#reviews" data-toggle="collapse" data-target=".navbar-collapse">Отзывы</a></li>
+          <li><a href="#footer" data-toggle="collapse" data-target=".navbar-collapse">Контакты</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
   </nav>
 
         <div class="container">
@@ -36,9 +34,10 @@
                         <p class="phone"><a href="tel:89264539579">8 (926) 453-95-79</a></p>
                         <p class="text"><b>Zinoveev@yandex.ru</b></p>
                         <a data-toggle="modal" href="#myModal0"><small>Закажите обратный звонок</small></a>
+                        <h1 class="title hiddenmd hidden-lg"><span class="text" >Свадебное видео</span>видеоролик на следующий<br />день после свадьбы! <br /></h1>
                     </div>
                 </div>
-                <div class="col-md-12">
+                <div class="hidden-xs hidden-sm col-md-12">
                     <h1 class="title"><span class="text" >Свадебное видео</span>видеоролик на следующий<br />день после свадьбы! <br /></h1>
                 </div>
                 <div class="clearfix"></div>

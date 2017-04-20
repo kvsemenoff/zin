@@ -11,7 +11,9 @@ body {
 	position: relative;
 	max-width: 920px;
 }
-
+.navbar-default {
+	opacity: 0.9;
+}
 .content2 {
 	margin: 0 auto;
 	/*padding: 0 0 0 20px;*/
@@ -125,12 +127,21 @@ body {
 
 /* -- * Header finish*/
 #form_1 {
-	background: url(../images/pictures/bg_02.jpg) no-repeat scroll center bottom transparent;
+	background: url(../images/pictures/bg_02.jpg) 30% 0 no-repeat;
 	background-size:cover;
 	/*height: 500px;*/
 	padding: 1px 0 40px;
+	position: relative;
 }
-
+#form_1:before {
+    position: absolute;
+    content: "";
+    background: rgba(255,255,255, 0.4);
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
 #form_1 .form {
 	/*margin: 0 0 0 240px;*/
 	max-width: 520px;
@@ -139,15 +150,22 @@ body {
 }
 @media only screen and (min-width : 992px) {
 	#form_1 {
-		margin: 67px 0 0;
+		background-position: 55% 0;
+	}
+	#form_1:before {
+		content: none;
 	}
 	#form_1 .form {
 		text-align: left;
 		margin: 0 0 0 260px;
 	}
+	#form_1 {
+		margin: 67px 0 0;
+	}
+
 }
 #form_1 .subtitle {
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 100;
 }
 
@@ -178,6 +196,9 @@ body {
 @media only screen and (min-width : 992px) {
 	#win2{
 		margin-left: 15px;
+	}
+	#form_1 .subtitle {
+		font-size: 30px;
 	}
 }
 #prices .box {
@@ -462,6 +483,9 @@ body {
 	border-radius: 10px;
 	margin: 2px;
 }
+.cur-item {
+	margin-top: 40px !important;
+}
 #video_2 .carousel {
 	max-width: 600px;
 	margin:24px auto;
@@ -605,6 +629,9 @@ body {
 	#reviews .name span, #reviews .name {
 		margin: 0px;
 	}
+	.cur-item {
+		margin-top: 0px !important;
+	}
 	#video_2 {
 		margin: 60px 0 0;
 	}
@@ -629,11 +656,20 @@ body {
 
 
 #form_2 {
-	background-image: url(../images/pictures/bg_04.jpg);
-	background-size: cover;
+	/*background-color:#f1e2d3;*/
+	background: url(../images/pictures/bg_04.jpg) 63% -15% no-repeat;
 	margin: 50px 0 0;
 	padding: 30px 0 30px 0;
 	position: relative;
+}
+#form_2:before {
+    position: absolute;
+    content: "";
+    background: rgba(255,255,255, 0.6);
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
 }
 .form_content {
 	text-align: center;
@@ -733,9 +769,6 @@ body {
 		background-color: #dddddd;
 		border: 1px solid #c1b8b4;
 	}
-	.form_2-head {
-		text-align: center;
-	}
 
 	/* END */
 	#footer {
@@ -811,6 +844,9 @@ body {
 		text-align: left !important;
 		font-size: 16px !important;
 	}
+	.form_2-head {
+		text-align: center;
+	}
 	@media screen and (min-width: 768px) {
 		.container2 {
 			max-width: 750px;
@@ -826,11 +862,15 @@ body {
 		.vk-footer {
 			margin-bottom: 0;
 		}
-
+		#form_2:before {
+		    content: none;
+		}
 		#footer {
 			text-align: left;
 		}
 		#form_2 {
+			background: url(../images/pictures/bg_04.jpg);
+			background-size: cover;
 			height: 500px;
 		}
 		#form_2 .text {
@@ -861,6 +901,7 @@ body {
 		.politiks_modal {
 			max-width: unset;
 		}
+
 		#form_2 .title {
 			font-size: 56px;
 			line-height: 56px;
