@@ -1,4 +1,4 @@
-<div id="balls_3">
+<div class="hidden-xs hidden-sm" id="balls_3">
   <div class="content2 hidden-xs hidden-sm">
     <h1 class="large">Как мы работаем</h1>
     <p class="text1">Мы встречаемся в<br />удобном для Вас месте</p>

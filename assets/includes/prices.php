@@ -1,4 +1,4 @@
-<div id="prices">
+<div class="hidden-xs hidden-sm" id="prices">
   <div class="content2">
     <h1 class="large">К Вашим услугам...</h1>
     <div class="row no-margin">
@@ -31,9 +31,6 @@
 </div>
 </div>
 <div class="icon_wedding"></div>
-<div class="container hidden-md hidden-lg">
-  <p class="text price-text">Цены на наши услуги начинаются от <span class="text-span">25</span> тысяч рублей</p>
-</div>
 <div class="hidden-xs hidden-sm table_prices">
   <div class="title">
     <div class="row">

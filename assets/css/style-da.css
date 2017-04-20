@@ -128,7 +128,7 @@ input{
 #header .balls1 p {
 	background: url(../images/icons/02.png) no-repeat scroll 0 19px transparent;
 	color: #553A00;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 300;
 
 
@@ -137,13 +137,13 @@ input{
 #header .balls1 p .title {
 	color: #49402B;
 	display: block;
-	font-size: 30px;
+	font-size: 14px;
 	font-weight: 100;
 	margin: 0 0 -6px;
 }
 
 #header .balls1 p .title .number {
-	font-size: 60px;
+	font-size: 30px;
 	font-weight: 500;
 }
 
@@ -155,7 +155,9 @@ input{
 	min-height: 460px;
 	/*max-width: 290px;*/
 }
-
+.balls-1-item {
+	padding: 0;
+}
 #balls1 .box .img img {
 	border-radius: 200px;
 }
@@ -230,6 +232,15 @@ input{
 @media only screen and (min-width: 992px) {
 	#header {
 		padding: 20px 0 0;
+	}
+	#header .balls1 p .title .number {
+		font-size: 60px;
+	}
+	#header .balls1 p .title {
+		font-size: 30px;
+	}
+	#header .balls1 p {
+		font-size: 20px;
 	}
 	#header .title {
 		font-size: 56px;

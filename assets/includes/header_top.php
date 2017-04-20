@@ -77,13 +77,13 @@
                 <div class="balls1">
 
 
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-xs-4 balls-1-item">
                             <p><span class="title">более<span class="number" > 7</span> лет</span>Помогаем сохранить<br />Ваши воспоминания</p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-xs-4 balls-1-item">
                             <p><span class="title"><span class="number" >516</span></span>Счастливых<br /> пар</p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-xs-4 balls-1-item">
                             <p><span class="title">от<span class="number"> 30</span> тысяч</span>стоимость наших <br />услуг</p>
                         </div>
 

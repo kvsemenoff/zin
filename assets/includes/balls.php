@@ -1,4 +1,4 @@
-<div id="balls1">
+<div class="hidden-xs hidden-sm"id="balls1">
   <div class="content2">
     <h1 class="large">Почему эти пары<br />выбрали именно нас?</h1>
     <div class="row no-margin">

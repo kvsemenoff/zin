@@ -34,6 +34,9 @@ body {
 	.content2 .box {
 		text-align: left;
 	}
+	#form_2 {
+		margin: 120px 0 0;
+	}
 }
 
 .clear {
@@ -125,7 +128,6 @@ body {
 	background: url(../images/pictures/bg_02.jpg) no-repeat scroll center bottom transparent;
 	background-size:cover;
 	/*height: 500px;*/
-	margin: 67px 0 0;
 	padding: 1px 0 40px;
 }
 
@@ -136,6 +138,9 @@ body {
 	text-align: center;
 }
 @media only screen and (min-width : 992px) {
+	#form_1 {
+		margin: 67px 0 0;
+	}
 	#form_1 .form {
 		text-align: left;
 		margin: 0 0 0 260px;
@@ -406,6 +411,8 @@ body {
 	font-size: 20px;
 	text-align: center;
 	margin-top: 30px;
+	font-weight: 100;
+	line-height: 25px;
 }
 .text-span {
 	font-size: 26px;
@@ -415,7 +422,6 @@ body {
 	background: url(../images/pictures/bg_03.jpg) no-repeat scroll center 0 transparent;
 	background-size:cover;
 	/*height: 541px;*/
-	margin: 60px 0 0;
 	padding: 30px 0 0px;
 }
 
@@ -599,6 +605,9 @@ body {
 	#reviews .name span, #reviews .name {
 		margin: 0px;
 	}
+	#video_2 {
+		margin: 60px 0 0;
+	}
 }
 #reviews .text {
 	font-size: 16px;
@@ -622,7 +631,7 @@ body {
 #form_2 {
 	background-image: url(../images/pictures/bg_04.jpg);
 	background-size: cover;
-	margin: 120px 0 0;
+	margin: 50px 0 0;
 	padding: 30px 0 30px 0;
 	position: relative;
 }
@@ -701,7 +710,7 @@ body {
 	}
 
 	#question {
-		background: url(../images/pictures/bg_07.jpg) no-repeat 51% 0;
+		background: url(../images/pictures/bg_07.jpg) no-repeat 100% 0;
 		height: 355px;
 		padding: 5px 0 0;
 	}
@@ -810,6 +819,9 @@ body {
 	@media screen and (min-width: 992px) {
 		.container2 {
 			max-width: 970px;
+		}
+		#question {
+			background: url(../images/pictures/bg_07.jpg) no-repeat 50% 0;
 		}
 		.vk-footer {
 			margin-bottom: 0;
