@@ -82,12 +82,7 @@
     <div class="col-md-6">
       <div class="video">
         <div class="inside_video">
-            <object width="100%" height="100%">
-                <param name="allowfullscreen" value="true" />
-                <param name="allowscriptaccess" value="always" />
-                <param onclick="_gaq.push(['_trackEvent', 'video5', 'play']);" name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=202627011&amp;force_embed=1&amp;server=vimeo.com&amp;title=0&amp;byline=0&amp;portrait=0&amp;" />
-                <embed src="http://vimeo.com/moogaloop.swf?clip_id=202627011&amp;force_embed=1&amp;server=vimeo.com&amp;title=0&amp;byline=0&amp;portrait=0&amp;" type="application/x-shockwave-flash" allowfullscreen="false" allowscriptaccess="always" width="100%" height="100%"></embed>
-            </object>
+          <iframe onclick="_gaq.push(['_trackEvent', 'video1', 'play']);" src="//player.vimeo.com/video/202627011?title=0&amp;byline=0&amp;portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
     </div>
     <div class="box_photo">

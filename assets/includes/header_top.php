@@ -34,7 +34,7 @@
                         <p class="phone"><a href="tel:89264539579">8 (926) 453-95-79</a></p>
                         <p class="text"><b>Zinoveev@yandex.ru</b></p>
                         <a data-toggle="modal" href="#myModal0"><small>Закажите обратный звонок</small></a>
-                        <h1 class="title hiddenmd hidden-lg"><span class="text" >Свадебное видео</span>видеоролик на следующий<br />день после свадьбы! <br /></h1>
+                        <h1 class="title hidden-md hidden-lg"><span class="text" >Свадебное видео</span>видеоролик на следующий<br />день после свадьбы! <br /></h1>
                     </div>
                 </div>
                 <div class="hidden-xs hidden-sm col-md-12">

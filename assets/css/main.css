@@ -130,7 +130,7 @@ body {
 	background: url(../images/pictures/bg_02.jpg) 30% 0 no-repeat;
 	background-size:cover;
 	/*height: 500px;*/
-	padding: 1px 0 40px;
+	padding: 35px 0 40px;
 	position: relative;
 }
 #form_1:before {
@@ -172,7 +172,9 @@ body {
 #form_1 .general_form .text_form {
 	margin: 16px 0 6px;
 }
-
+#mobile-prices {
+	padding-top: 35px;
+}
 #prices .large {
 	margin: 85px 0 52px;
 }
